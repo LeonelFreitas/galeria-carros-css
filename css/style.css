@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    height:180px;
+    height:90px;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -27,14 +27,14 @@ header h1{
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2vw;
-    padding: 0 10vw;
+    padding: 0 5vw;
 
 }
 
 .galeria-items{
-    width: 340px;
-    height: 340px;
-    border: 10px solid white;
+    width: 400px;
+    height: 400px;
+    border: 7px solid white;
     box-shadow: 5px 5px 5px #0006;
     flex-grow: 1;
     transition: transform .5s linear;
@@ -51,7 +51,7 @@ header h1{
 }
 
 footer{
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -77,7 +77,6 @@ footer{
         justify-content: space-evenly;
         gap: 3vw;
         padding: 0 3vw;
-    
     }
 
     .galeria-items{
