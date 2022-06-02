@@ -9,17 +9,17 @@ body{
 }
 
 header{
-    height:150px;
+    height:180px;
     display: flex;
     justify-content:center;
     align-items:center;
 }
 
 header h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3rem;
     font-weight: 900;
-    color:#000;
+    color: 	#4F4F4F;
 }
 
 .galeria-container{
@@ -71,8 +71,8 @@ footer{
     }
 
     .galeria-items{
-        width: 150px;
-        height: 100px;
+        width: 300px;
+        height: 300px;
         margin: 0 auto;
         border: 10px solid white;
         box-shadow: 5px 5px 5px #0006;
